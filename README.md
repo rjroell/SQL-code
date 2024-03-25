@@ -1,4 +1,33 @@
 https://www.cbr.com/richest-superheroes-ranked/
 
 #### Purpose of this repository is to showcase my SQL knowledge. 
-The data was gathered from the link above which listed the 25 wealthest superheroes. 
+The data was gathered from the link above which lists the 25 wealthest superheroes. Net worth is in USD.
+
+CREATE TABLE heroes_wealth (id INTEGER PRIMARY KEY,name TEXT, net_worth INTEGER);
+INSERT INTO heroes_wealth VALUES (1, "Wolverine", 5);
+INSERT INTO heroes_wealth VALUES (2, "Daredevil", 4);
+INSERT INTO heroes_wealth VALUES (3, "Captain Avalon", 150);
+INSERT INTO heroes_wealth VALUES (4, "Silver Sable", 200);
+INSERT INTO heroes_wealth VALUES (5, "Chloe Hutchence", 200);
+/*Billion */
+INSERT INTO heroes_wealth VALUES (6, "Power Girl", 1);
+INSERT INTO heroes_wealth VALUES (7, "Mister Terrific", 1);
+INSERT INTO heroes_wealth VALUES (8, "The Wasp", 1);
+INSERT INTO heroes_wealth VALUES (9, "Blue Beetle", 5);
+INSERT INTO heroes_wealth VALUES (10, "Iron Fist", 5);
+INSERT INTO heroes_wealth VALUES (11, "Archangel", 5);
+INSERT INTO heroes_wealth VALUES (12, "Green Arrow", 7);
+INSERT INTO heroes_wealth VALUES (13, "Emma Frost", 11);
+INSERT INTO heroes_wealth VALUES (14, "Mister Fantastic", 12);
+INSERT INTO heroes_wealth VALUES (15,"Iron Man", 80);
+INSERT INTO heroes_wealth VALUES (16, "Batman", 100);
+INSERT INTO heroes_wealth VALUES (17, "Nightwing", 100);
+INSERT INTO heroes_wealth VALUES (18, "Professor X", 125);
+INSERT INTO heroes_wealth VALUES (19, "Sunspot", 125 );
+INSERT INTO heroes_wealth VALUES (20, "Namor The Sub-Marine", 260);
+/*Trillion */
+INSERT INTO heroes_wealth VALUES (21, "Madelyn Pryor", 1); 
+INSERT INTO heroes_wealth VALUES (22, "Black Panther", 90);
+INSERT INTO heroes_wealth VALUES (23, "Black Bot", 100);
+INSERT INTO heroes_wealth VALUES (24, "Aquaman", 150);
+INSERT INTO heroes_wealth VALUES (25, "Thor", 200);
